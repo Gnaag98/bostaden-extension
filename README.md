@@ -7,3 +7,9 @@ The available apartments can be found at [minasidor.bostaden.umea.se/ledigt/lage
 The available apartments are presented in a table, with a row per apartment. The columns include the number of rooms, the rent, the apartment size in square meters, etc. Other than renaming some of the column headers, the following columns have been added:
 - Queue points, i.e. the number of points needed to be contated about the apartment.
 - Rent per square meter, for a more fair comparison of apartments.
+
+### Before
+![Table of apartments without extension](https://github.com/Gnaag98/bostaden-extension/blob/main/documentation/bostaden_before.png "Without extension")
+
+### After
+![Table of apartments with extension](https://github.com/Gnaag98/bostaden-extension/blob/main/documentation/bostaden_after.png "With extension")
