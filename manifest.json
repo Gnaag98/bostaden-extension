@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Bostaden rent per square meter",
+    "version": "1.0",
+    "description": "Adds the monthly rent per square meter to the list of available appartments",
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "https://minasidor.bostaden.umea.se/ledigt/lagenhet/exkluderande"
+            ]
+        }
+    ]
+}
